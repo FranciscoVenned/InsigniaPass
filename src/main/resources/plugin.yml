@@ -1,0 +1,13 @@
+name: InsigniaPass
+version: '${project.version}'
+main: com.venned.insigniapass.Main
+api-version: '1.20'
+commands:
+  lock:
+    description: Locks a block
+  viewpassword:
+    description: View Password
+  removelock:
+    description: Remove Lock
+  adminunlock:
+    description: Locks a door for admins
